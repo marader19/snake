@@ -8,9 +8,9 @@ namespace Snake
 {
     class FoodCreator
     {
-        int mapWidght;
-        int mapHeight;
-        char sym;
+        private int mapWidght;
+        private int mapHeight;
+        private char sym;
 
         Random random = new Random();
         public FoodCreator(int mapWidght, int mapHeight, char sym)
